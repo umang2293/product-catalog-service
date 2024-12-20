@@ -2,11 +2,13 @@ package com.ecommerce.productcatalog;
 
 import jakarta.persistence.*;
 import lombok.Data;
+import lombok.RequiredArgsConstructor;
 
 import java.math.BigDecimal;
 
 @Data
 @Entity
+@RequiredArgsConstructor
 @Table(name = "tbl_products")
 public class Product {
     @Id

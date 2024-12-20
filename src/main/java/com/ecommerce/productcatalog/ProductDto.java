@@ -1,8 +1,10 @@
 package com.ecommerce.productcatalog;
 
 import lombok.Data;
+import lombok.RequiredArgsConstructor;
 
 @Data
+@RequiredArgsConstructor
 public class ProductDto {
 
     private Integer id;
