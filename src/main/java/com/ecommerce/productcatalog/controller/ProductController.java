@@ -1,5 +1,8 @@
-package com.ecommerce.productcatalog;
+package com.ecommerce.productcatalog.controller;
 
+import com.ecommerce.productcatalog.dto.ProductDto;
+import com.ecommerce.productcatalog.service.ProductService;
+import com.ecommerce.productcatalog.entity.Product;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 

@@ -1,4 +1,4 @@
-package com.ecommerce.productcatalog;
+package com.ecommerce.productcatalog.dto;
 
 import lombok.Data;
 import lombok.RequiredArgsConstructor;

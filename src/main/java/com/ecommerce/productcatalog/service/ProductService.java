@@ -1,5 +1,8 @@
-package com.ecommerce.productcatalog;
+package com.ecommerce.productcatalog.service;
 
+import com.ecommerce.productcatalog.dto.ProductDto;
+import com.ecommerce.productcatalog.entity.Product;
+import com.ecommerce.productcatalog.repository.ProductRepository;
 import org.springframework.stereotype.Service;
 
 import java.math.BigDecimal;
