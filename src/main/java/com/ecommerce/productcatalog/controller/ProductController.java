@@ -3,6 +3,7 @@ package com.ecommerce.productcatalog.controller;
 import com.ecommerce.productcatalog.dto.ProductDto;
 import com.ecommerce.productcatalog.service.ProductService;
 import com.ecommerce.productcatalog.entity.Product;
+import com.fasterxml.jackson.core.JsonProcessingException;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
@@ -29,7 +30,7 @@ public class ProductController {
     }
 
     @PostMapping("/addProduct")
-    public ResponseEntity<Product> createProduct(@RequestBody ProductDto productDto) {
+    public ResponseEntity<Product> createProduct(@RequestBody ProductDto productDto) throws JsonProcessingException {
         return ResponseEntity.ok(productService.createProduct(productDto));
     }
 
